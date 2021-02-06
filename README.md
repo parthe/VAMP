@@ -8,3 +8,8 @@ Currently supports solving linear inverse problems of the form
 ```math
 minimize_x    0.5 * ||y-Ax||^2 +  Lambda * R(x)
 ```
+For the following functions ```R(x)```
+1. LASSO: ```||x||_1```
+2. Ridge regression: ```0.5 * ||x||^2```
+3. Lp regression: ```||x||_p^p / p``` for p > 1
+4. Elastic Net: ```l1_ratio * ||x||_1 + (1 - l1_ratio) * 0.5 * ||x||^2```
