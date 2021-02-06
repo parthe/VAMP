@@ -6,5 +6,5 @@ https://arxiv.org/abs/1610.03082 (Rangan, Schniter, Fletcher)
 
 Currently supports solving linear inverse problems of the form
 ```math
-minimize_x \frac12 ||y-Ax||^2 + \rho(x)
+minimize_x    0.5 * ||y-Ax||^2 +  Lambda * \rho(x)
 ```
