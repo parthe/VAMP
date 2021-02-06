@@ -24,10 +24,6 @@ class ElasticNet(Denoiser):
     def __init__(self, *args, **kwargs):
         super().__init__(prox_elastic_net, *args, **kwargs)
 
-class Lmmse(Denoiser):
-    def __init__(self, *args, **kwargs):
-        super().__init__(LMMSE_denoiser, *args, **kwargs)
-
 class TwoSidedDenoiser():
     def __init__(self):
         raise NotImplementedError()
