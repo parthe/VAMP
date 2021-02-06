@@ -9,7 +9,8 @@ import numpy as np
 from numpy.linalg import svd, norm, inv
 from numpy.random import randn
 import matplotlib.pyplot as plt
-from VAMP.denoisers.map_denoisers import Lp, L1, L2, Lmmse, ElasticNet
+from VAMP.denoisers.map_denoisers import L1, L2, Lp, ElasticNet
+from VAMP.denoisers.lmmse_denoisers import Lmmse
 from VAMP.solvers.vamp import Vamp
 from numpy import sqrt, log10, abs, count_nonzero, eye
 from sklearn import linear_model
