@@ -6,7 +6,7 @@ https://arxiv.org/abs/1610.03082 (Rangan, Schniter, Fletcher)
 
 Currently supports solving linear inverse problems of the form
 ```math
-\underset{x}{\rm minimize}    \tfrac12 ||y-Ax||^2 +  Lambda * R(x)
+\underset{x}{\rm minimize}    \tfrac12 ||y-Ax||^2 +  \lambda * R(x)
 ```
 For the following functions ```R(x)```
 1. LASSO: ```||x||_1```
